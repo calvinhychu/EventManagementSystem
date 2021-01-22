@@ -12,16 +12,15 @@ Logging in as an organizer and creating an event called "Java 101" for the confe
 ## User Types
 This application has defined 5 different user types that each have different functionality. 
 
-Attendee: Attendee is the basic user type in our program. They represent the group of people who will be attending the events. Attendees are able to access messenger functions, view events and register/cancel an event, make requests to organizers and have a friend list. 
+<b>Attendee</b>: Attendee is the basic user type in our program. They represent the group of people who will be attending the events. Attendees are able to access messenger functions, view events and register/cancel an event, make requests to organizers and have a friend list. 
 
-Organizer: Organizers are the group of users who are hosting the conference. Organizer inherits all the functions from Attendee. Additionally, Organizer can manage events (create, modify, delete etc.), manage users (create user accounts), manage user requests and view summary data of conferences. 
+<b>Organizer</b>: Organizers are the group of users who are hosting the conference. Organizer inherits all the functions from Attendee. Additionally, Organizer can manage events (create, modify, delete etc.), manage users (create user accounts), manage user requests and view summary data of conferences. 
 
-Speaker: Speaker is a user that can delivery a talk/speech to events. Speaker inherits all the functions from Attendee. Additionally, Speaker can view the events he gives as well as view the list of attendees of the events they will be speaking in and send message to them.
+<b>Speaker</b>: Speaker is a user that can delivery a talk/speech to events. Speaker inherits all the functions from Attendee. Additionally, Speaker can view the events he gives as well as view the list of attendees of the events they will be speaking in and send message to them.
 
-Guest: Guests can view events, including viewing events by speakers and days but no other actions are provided. Unlike all user types, guest does not have an account.
+<b>Guest</b>: Guests can view events, including viewing events by speakers and days but no other actions are provided. Unlike all user types, guest does not have an account.
 
-VIP: Vips are a special kind of attendee where they have access to all the actions that any other attendees can take, but also with extra features. Features including having they own personal wishlist for events, have their own favorite speakers list and create/host 
-a party (a special type of event that has no speaker).
+<b>VIP</b>: Vips are a special kind of attendee where they have access to all the actions that any other attendees can take, but also with extra features. Features including having they own personal wishlist for events, have their own favorite speakers list and create/host a party (a special type of event that has no speaker).
 
 ## Functionality
 Below are explanation of some of the major functions of EventManagementSystem. There are however, more functions that have been developed but not explicitly explained below.
