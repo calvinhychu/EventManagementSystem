@@ -5,3 +5,4 @@ events.ser
 rooms.ser
 user_requests.ser
 users.ser
+out/
